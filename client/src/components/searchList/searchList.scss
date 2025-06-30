@@ -1,0 +1,38 @@
+.searchList {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 250px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 20;
+
+  .userItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    gap: 10px;
+
+    img {
+      width: 37px;
+      height: 37px;
+      border-radius: 50%;
+    }
+
+    &:hover {
+      background: #f9f9f9;
+    }
+
+    .searchUserLink {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+    }
+  }
+}
